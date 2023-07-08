@@ -66,7 +66,6 @@ body{
 }
 .card{
   max-width: 600px;
-  min-height: 450px;
   display: flex;
   flex-direction: raw;
   border-radius: 15px;
@@ -80,17 +79,19 @@ body{
 }
 
 .right-side{
-  padding: 35px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
-  min-height: 390px;
+ 
 }
 .left-side{
   width: 100%;
+  display: block;
 }
 .left-side img {
   object-fit: cover;
   width:100%;
+  display: block;
 }
 
 /* font-family: 'Montserrat', sans-serif; */
@@ -122,8 +123,8 @@ p{
 .price-info{
   display: flex;
   align-content: flex-start;
-  margin-top: 35px;
-  margin-bottom: 30px;
+  margin-top: 32px;
+  margin-bottom: 28px;
 }
 
 .new-price{
